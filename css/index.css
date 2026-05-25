@@ -47,6 +47,30 @@ h6 {
   flex-wrap: wrap;
   gap: 15px;
 }
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  justify-content: center;
+}
+
+a:hover {
+  color: rgb(156, 79, 216);
+  text-decoration: underline;
+}
+a:visited {
+  color: rgb(214, 0, 0);
+}
+
+#Connect a:hover {
+  color: rgb(10, 247, 30);
+  text-decoration: underline;
+}
+#Connect :visited {
+  color: rgb(141, 11, 11);
+}
+
 .job-header {
   display: flex;
   justify-content: space-between;
