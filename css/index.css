@@ -95,3 +95,37 @@ a:visited {
   font-size: 0.9rem;
   opacity: 0.8;
 }
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #d10e9a;
+  border-top: 1px solid #ddd;
+}
+#Skills {
+  margin-top: 40px;
+}
+
+#Skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+#Skills li {
+  background: #020202;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  color: #b11919;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+#Skills li:hover {
+  background: #dff0ff;
+  transform: translateY(-2px);
+}
